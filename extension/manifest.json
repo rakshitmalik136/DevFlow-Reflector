@@ -1,0 +1,8 @@
+{
+  "name": "devflow-reflector",
+  "version": "0.1.0",
+  "description": "Future VS Code/GitHub extension for DevFlow Reflector.",
+  "main": "extension.js",
+  "author": "Your Name",
+  "license": "Apache-2.0"
+}
