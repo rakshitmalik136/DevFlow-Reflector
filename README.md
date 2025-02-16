@@ -26,8 +26,8 @@ DevFlow Reflector is an interactive tool that merges Git history visualization w
    - Support local storage of journal data for privacy and offline usage.
 
 3. **Modular & Extension-Ready**
-   - Built as a standalone web application for the MVP.
-   - Designed with a modular codebase, making it easier to refactor as a VS Code or GitHub extension later.
+   - It is a standalone web application for the Now.
+   - Designed with a modular codebase, making it easier to refactor as a VS Code or GitHub extension or any other code-editors extension later.
    - Uses webviews/components that can be repurposed for in-editor interfaces.
 
 ---
