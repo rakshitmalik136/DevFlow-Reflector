@@ -1,4 +1,3 @@
-```markdown
 # DevFlow Reflector
 
 DevFlow Reflector is an interactive tool that merges Git history visualization with a personal productivity journal. It parses your local Git logs to generate dynamic graphs of your commit history and branch evolution while allowing you to attach journal entries to your commits or work sessions. This MVP is designed as a standalone web application, with a roadmap to transform it into an extension (e.g., for VS Code or GitHub) in the future.
