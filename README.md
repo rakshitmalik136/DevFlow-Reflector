@@ -40,39 +40,39 @@ Below is a suggested directory structure for the MVP. This structure separates b
 devflow-reflector/
 │
 ├── backend/
-│   ├── main.py             # Entry point for the API server (Flask/FastAPI)
+│   ├── main.py             # Entry point for the API server (e.g., Flask/FastAPI)
 │   ├── git_parser.py       # Module to parse local Git logs
 │   ├── db_manager.py       # Handles local data storage (SQLite/JSON)
 │   ├── analytics.py        # Processes commit data to generate insights
-│   ├── requirements.txt    # Python dependencies
-│   └── tests/              # Backend unit and integration tests
+│   ├── requirements.txt    # List of Python dependencies
+│   └── tests/              # Minimal tests for backend functionality
+│        └── test_sample.py
 │
 ├── frontend/
 │   ├── public/
-│   │   ├── index.html      # HTML template for the web application
-│   │   └── assets/         # Static assets (images, icons, CSS)
+│   │   ├── index.html      # Basic HTML template for the web application
+│   │   └── assets/
+│   │         └── styles.css  # Minimal CSS for styling
 │   │
 │   ├── src/
-│   │   ├── components/     # React components (charts, journal entry forms, dashboards)
-│   │   ├── pages/          # Main app pages (Dashboard, Journal, Settings)
+│   │   ├── components/     # React components (e.g., charts, journal entry forms)
+│   │   │      ├── ChartComponent.js
+│   │   │      ├── JournalForm.js
+│   │   │      └── Dashboard.js
+│   │   ├── pages/          # Main pages for the application (Dashboard, Journal, Settings)
+│   │   │      ├── DashboardPage.js
+│   │   │      ├── JournalPage.js
+│   │   │      └── SettingsPage.js
 │   │   ├── App.js          # Root React component
 │   │   ├── index.js        # Entry point for the React app
 │   │   └── api.js          # Handles API calls to the backend
 │   │
 │   ├── package.json        # Frontend dependencies and scripts
-│   └── README.md           # Frontend-specific documentation (if needed)
+│   └── README.md           # (Optional) Frontend documentation
 │
-├── extension/              # (Optional) Future VS Code/GitHub extension code
-│   ├── manifest.json       # Extension manifest file
-│   ├── extension.js        # Main extension logic (to be developed)
-│   └── webview/            # Reusable webview components for extension integration
-│
-├── docs/                   # Additional documentation, design docs, and user guides
-│   └── architecture.md     # Architecture and roadmap documentation
-│
-├── .gitignore              # Files and directories to ignore in Git
-├── LICENSE                 # Project license (e.g., MIT)
-└── setup.sh                # Quick setup script to install dependencies and run the project
+├── .gitignore              # Files/directories to ignore (node_modules, __pycache__, etc.)
+├── LICENSE                 # License file (using Apache License 2.0 for now)
+└── setup.sh                # Quick setup script (if needed for manual steps)
 ```
 
 ---
