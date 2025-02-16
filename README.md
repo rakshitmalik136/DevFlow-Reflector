@@ -1,6 +1,6 @@
 # DevFlow Reflector
 
-DevFlow Reflector is an interactive tool that merges Git history visualization with a personal productivity journal. It parses your local Git logs to generate dynamic graphs of your commit history and branch evolution while allowing you to attach journal entries to your commits or work sessions. This MVP is designed as a standalone web application, with a roadmap to transform it into an extension (e.g., for VS Code or GitHub) in the future.
+DevFlow Reflector is an interactive tool that merges Git history visualization with a personal productivity journal. It parses your local Git logs to generate dynamic graphs of your commit history and branch evolution while allowing you to attach journal entries to your commits or work sessions. This MVP is designed as a standalone web application, with a roadmap to transform it into an extension (e.g., for VS Code or GitHub or others) in the future.
 
 ---
 
@@ -9,7 +9,7 @@ DevFlow Reflector is an interactive tool that merges Git history visualization w
 - **Interactive Git Visualizations:** Automatically generate graphs and dashboards to display commit trends, branch activity, and key contribution metrics.
 - **Productivity Journaling:** Add personal notes or reflections linked to specific commits or time periods, creating a historical record of insights, challenges, and improvements.
 - **Local Data Handling:** All processing is done locally by parsing Git logs and storing data (using SQLite or JSON files), ensuring privacy and compliance with FOSS principles.
-- **Extension-Ready Architecture:** The MVP is built modularly so that the core functionality can later be integrated as a VS Code or GitHub extension.
+- **Extension-Ready Architecture:** The MVP is built modularly so that the core functionality can later be integrated as an extension for VS Code, GitHub, or others.
 
 ---
 
@@ -152,9 +152,8 @@ For major changes, please open an issue first to discuss what you would like to 
 
 ## 📧 Contact
 
-For questions or suggestions, please open an issue in the repository or contact [your-email@example.com](mailto:your-email@example.com).
+For questions or suggestions, please open an issue in the repository.
 
 ---
 
 *DevFlow Reflector aims to make your development journey more insightful and productive by bridging raw commit data with reflective journaling. Enjoy using and contributing to the project!*
-```
